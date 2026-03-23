@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>담담 1주차 광고 운영 리포트</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <style>
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+            background-color: #f8fafc;
+        }
+        .stat-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-10">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="bg-blue-600 text-white p-1.5 rounded-md">
+                    <i data-lucide="line-chart" class="w-5 h-5"></i>
+                </div>
+                <h1 class="text-lg font-bold">담담 1주차 광고 성과 리포트</h1>
+            </div>
+            <div class="text-sm text-slate-500 font-medium">
+                3.2(월) ~ 3.8(일)
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+
+        <!-- Executive Summary -->
+        <section class="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-2xl p-6 shadow-sm">
+            <h2 class="text-blue-900 font-extrabold text-xl mb-2">🔥 단 2만 5천 원으로 유입량 42% 폭발적 증가!</h2>
+            <p class="text-blue-800 leading-relaxed mb-4">
+                광고 라이브 첫 주, <strong>총 비용 25,382원</strong>으로 플레이스 유입을 전주 대비 <strong>42%</strong>나 끌어올렸습니다.<br>
+                단순히 노출만 된 것이 아니라 실제 클릭률(CTR)이 매우 우수하여 가성비 넘치는 첫 주 성과를 달성했습니다.
+            </p>
+        </section>
+
+        <!-- Section 1: Ad Spend & Efficiency -->
+        <section class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 stat-card">
+            <div class="flex items-center gap-2 mb-5">
+                <i data-lucide="wallet" class="text-slate-600 w-5 h-5"></i>
+                <h3 class="text-lg font-bold text-slate-900">1. 광고 집행 내역 및 효율</h3>
+            </div>
+            
+            <div class="grid sm:grid-cols-2 gap-4 mb-4">
+                <div class="border border-slate-100 bg-slate-50 rounded-xl p-4">
+                    <div class="text-sm font-bold text-blue-600 mb-1">플레이스 광고</div>
+                    <div class="flex justify-between items-end mb-2">
+                        <div class="text-2xl font-black text-slate-800">24,508<span class="text-base font-normal text-slate-500">원</span></div>
+                        <div class="text-xs text-slate-500">노출 2,095회</div>
+                    </div>
+                    <div class="flex justify-between items-center text-sm border-t border-slate-200 pt-2 mt-2">
+                        <span class="text-slate-500">클릭수</span>
+                        <span class="font-bold">78회 <span class="text-blue-500">(클릭률 3.73%)</span></span>
+                    </div>
+                </div>
+
+                <div class="border border-slate-100 bg-slate-50 rounded-xl p-4">
+                    <div class="text-sm font-bold text-green-600 mb-1">지역소상공인 광고</div>
+                    <div class="flex justify-between items-end mb-2">
+                        <div class="text-2xl font-black text-slate-800">874<span class="text-base font-normal text-slate-500">원</span></div>
+                        <div class="text-xs text-slate-500">노출 1,623회</div>
+                    </div>
+                    <div class="flex justify-between items-center text-sm border-t border-slate-200 pt-2 mt-2">
+                        <span class="text-slate-500">클릭수</span>
+                        <span class="font-bold">28회 <span class="text-green-500">(클릭률 1.73%)</span></span>
+                    </div>
+                </div>
+            </div>
+            <p class="text-xs text-slate-400 text-right">* VAT 포함 금액 기준</p>
+        </section>
+
+        <!-- Section 2: Traffic Growth -->
+        <section class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 stat-card">
+            <div class="flex items-center gap-2 mb-5">
+                <i data-lucide="users" class="text-slate-600 w-5 h-5"></i>
+                <h3 class="text-lg font-bold text-slate-900">2. 플레이스 유입 및 전환 지표 (Before & After)</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                <div class="bg-blue-50/50 border border-blue-100 p-5 rounded-xl text-center">
+                    <div class="text-sm font-bold text-slate-600 mb-1">플레이스 유입</div>
+                    <div class="text-4xl font-black text-blue-600 mb-2">872<span class="text-lg font-bold text-blue-400">회</span></div>
+                    <div class="inline-flex items-center gap-1 bg-red-100 text-red-600 px-2 py-0.5 rounded text-sm font-bold mb-2">
+                        <i data-lucide="trending-up" class="w-4 h-4"></i> 42% 증가
+                    </div>
+                    <div class="text-xs text-slate-400">광고 전: 616회</div>
+                </div>
+                
+                <div class="bg-slate-50 border border-slate-100 p-5 rounded-xl text-center">
+                    <div class="text-sm font-bold text-slate-600 mb-1">스마트콜 통화</div>
+                    <div class="text-3xl font-black text-slate-800 mb-2">23<span class="text-lg font-bold text-slate-500">회</span></div>
+                    <div class="inline-flex items-center gap-1 bg-red-100 text-red-600 px-2 py-0.5 rounded text-sm font-bold mb-2">
+                        <i data-lucide="trending-up" class="w-4 h-4"></i> 10% 증가
+                    </div>
+                    <div class="text-xs text-slate-400">광고 전: 21회</div>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-100 p-5 rounded-xl text-center">
+                    <div class="text-sm font-bold text-slate-600 mb-1">리뷰 등록</div>
+                    <div class="text-3xl font-black text-slate-800 mb-2">13<span class="text-lg font-bold text-slate-500">회</span></div>
+                    <div class="inline-flex items-center gap-1 bg-red-100 text-red-600 px-2 py-0.5 rounded text-sm font-bold mb-2">
+                        <i data-lucide="trending-up" class="w-4 h-4"></i> 86% 증가
+                    </div>
+                    <div class="text-xs text-slate-400">광고 전: 7회</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Seasonality Check (CRITICAL) -->
+        <section class="bg-slate-900 rounded-2xl p-1 shadow-lg transform -rotate-1 hover:rotate-0 transition-transform duration-300">
+            <div class="bg-white rounded-xl p-6 h-full border border-slate-200">
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">팩트체크</span>
+                    <h3 class="text-lg font-extrabold text-slate-900">"지금 개강 시즌이라서 오르는 거 아닐까요?"</h3>
+                </div>
+                <p class="text-slate-600 mb-5 text-sm">작년 2학기 개강 주간(9월)과 이번 주(광고 진행)를 비교해보면, <strong>단순한 시즌 효과가 아닌 '광고'의 효과</strong>임이 확실하게 증명됩니다.</p>
+                
+                <div class="flex flex-col md:flex-row gap-4 items-center">
+                    <!-- 작년 9월 개강 -->
+                    <div class="flex-1 w-full bg-slate-50 rounded-lg p-4 border border-slate-200">
+                        <div class="text-center text-sm font-bold text-slate-500 mb-3">작년 가을 개강 주간<br>(25. 9. 1 ~ 9. 7)</div>
+                        <div class="flex justify-between items-center py-2 border-b border-slate-200">
+                            <span class="text-sm text-slate-600">플레이스 유입</span>
+                            <span class="font-bold text-slate-700">585회</span>
+                        </div>
+                        <div class="flex justify-between items-center py-2">
+                            <span class="text-sm text-slate-600">스마트콜</span>
+                            <span class="font-bold text-slate-700">7회</span>
+                        </div>
+                    </div>
+
+                    <!-- VS -->
+                    <div class="shrink-0 bg-red-100 text-red-500 rounded-full p-2 font-black italic">VS</div>
+
+                    <!-- 올해 3월 광고 -->
+                    <div class="flex-1 w-full bg-blue-50 rounded-lg p-4 border border-blue-200 shadow-inner">
+                        <div class="text-center text-sm font-bold text-blue-700 mb-3">올해 봄 개강 + 광고집행<br>(26. 3. 2 ~ 3. 8)</div>
+                        <div class="flex justify-between items-center py-2 border-b border-blue-200">
+                            <span class="text-sm font-bold text-blue-900">플레이스 유입</span>
+                            <span class="font-black text-blue-600 text-lg">872회</span>
+                        </div>
+                        <div class="flex justify-between items-center py-2">
+                            <span class="text-sm font-bold text-blue-900">스마트콜</span>
+                            <span class="font-black text-blue-600 text-lg">23회</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center mt-4 text-sm font-bold text-slate-700">💡 결론: 작년 개강 시즌 대비 <span class="text-red-500">유입 1.5배, 전화문의 3배 이상</span> 높습니다. 광고의 힘입니다.</p>
+            </div>
+        </section>
+
+        <!-- Section 4 & 5 Grid -->
+        <div class="grid md:grid-cols-2 gap-6">
+            
+            <!-- Section 4: Keywords -->
+            <section class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 stat-card">
+                <div class="flex items-center gap-2 mb-4">
+                    <i data-lucide="search" class="text-slate-600 w-5 h-5"></i>
+                    <h3 class="text-lg font-bold text-slate-900">주요 유입 키워드 TOP 5</h3>
+                </div>
+                <ul class="space-y-3">
+                    <li class="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
+                        <div class="flex items-center gap-3">
+                            <span class="w-6 h-6 rounded bg-slate-200 text-slate-600 flex items-center justify-center text-xs font-bold">1</span>
+                            <span class="font-bold text-slate-800">음식점</span>
+                        </div>
+                        <span class="text-sm text-slate-500">노출 545 / 클릭 30</span>
+                    </li>
+                    <li class="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
+                        <div class="flex items-center gap-3">
+                            <span class="w-6 h-6 rounded bg-slate-200 text-slate-600 flex items-center justify-center text-xs font-bold">2</span>
+                            <span class="font-bold text-slate-800">술집</span>
+                        </div>
+                        <span class="text-sm text-slate-500">노출 149 / 클릭 6</span>
+                    </li>
+                    <li class="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
+                        <div class="flex items-center gap-3">
+                            <span class="w-6 h-6 rounded bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold">3</span>
+                            <span class="font-bold text-blue-800">진주가좌동맛집</span>
+                        </div>
+                        <span class="text-sm text-blue-600/70">노출 121 / 클릭 4</span>
+                    </li>
+                    <li class="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
+                        <div class="flex items-center gap-3">
+                            <span class="w-6 h-6 rounded bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold">4</span>
+                            <span class="font-bold text-blue-800">경상대맛집</span>
+                        </div>
+                        <span class="text-sm text-blue-600/70">노출 107 / 클릭 5</span>
+                    </li>
+                    <li class="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
+                        <div class="flex items-center gap-3">
+                            <span class="w-6 h-6 rounded bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold">5</span>
+                            <span class="font-bold text-blue-800">경상대술집</span>
+                        </div>
+                        <span class="text-sm text-blue-600/70">노출 73 / 클릭 2</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Section 5: New Feature (Reservation) -->
+            <section class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-200 stat-card flex flex-col">
+                <div class="flex items-center gap-2 mb-4">
+                    <i data-lucide="calendar-check" class="text-emerald-600 w-5 h-5"></i>
+                    <h3 class="text-lg font-bold text-slate-900">신규 업데이트 현황</h3>
+                </div>
+                <div class="bg-emerald-50 border border-emerald-100 p-4 rounded-xl flex-1 flex flex-col justify-center items-center text-center">
+                    <div class="bg-white p-2 rounded-lg shadow-sm border border-slate-100 mb-3 w-full max-w-[200px]">
+                        <div class="w-full h-24 bg-slate-800 rounded flex items-center justify-center text-white font-bold text-xs relative overflow-hidden mb-2">
+                            <div class="absolute inset-0 bg-black/40"></div>
+                            <span class="relative z-10 px-2 text-center">담담 5인이상 28인이하<br>단체예약(19시 이전)</span>
+                        </div>
+                        <div class="flex justify-between items-center px-1">
+                            <span class="text-[10px] font-bold text-slate-800">노출중(검수대기)</span>
+                            <div class="w-6 h-3.5 bg-green-500 rounded-full"></div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-emerald-900 mb-1">단체 예약 상품 추가 완료!</h4>
+                    <p class="text-xs text-emerald-700">개강총회 및 동아리 모임을 타겟으로 한 단체 예약 기능을 세팅하여 현재 <b>네이버 검수 신청 중</b>입니다. 승인 후 유입량 증가가 더 기대됩니다.</p>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer class="text-center py-8 text-slate-400 text-sm">
+        &copy; 2026 담담 Place Ad Weekly Report
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
