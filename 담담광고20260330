@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>담담 3월 4주차 광고 운영 리포트</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <style>
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+            background-color: #f8fafc;
+            word-break: keep-all;
+        }
+        .stat-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .pulse-badge {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .7; }
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased pb-12">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-10 shadow-sm">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="bg-indigo-600 text-white p-1.5 rounded-md">
+                    <i data-lucide="pie-chart" class="w-5 h-5"></i>
+                </div>
+                <h1 class="text-lg font-bold tracking-tight">담담 3월 4주차 마케팅 리포트</h1>
+            </div>
+            <div class="text-sm text-slate-500 font-medium bg-slate-100 px-3 py-1 rounded-full flex items-center gap-1.5">
+                <i data-lucide="calendar" class="w-3.5 h-3.5"></i> 26. 03. 23 ~ 03. 29
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+
+        <!-- Executive Summary -->
+        <section class="bg-gradient-to-r from-indigo-50 to-blue-50 border border-indigo-100 rounded-2xl p-6 sm:p-8 shadow-sm relative overflow-hidden">
+            <div class="absolute -right-10 -top-10 text-indigo-100 opacity-50">
+                <i data-lucide="trending-up" class="w-48 h-48"></i>
+            </div>
+            <div class="relative z-10">
+                <h2 class="text-indigo-900 font-extrabold text-xl sm:text-2xl mb-4 flex items-center gap-2">
+                    <span class="text-2xl">🎉</span> 예약 신청 600% 폭발! 세팅의 승리입니다.
+                </h2>
+                <div class="text-indigo-800 leading-relaxed space-y-3 text-sm sm:text-base">
+                    <p>
+                        사장님, 우리가 2주 차에 깔아두었던 <strong>'19시 이전 단체 예약' 시스템이 드디어 빛을 발했습니다.</strong><br class="hidden sm:block">
+                        단순 찌르기식 문의 전화가 확정적인 '네이버 예약'으로 전환되며 무려 <strong>예약 신청이 600% 증가</strong>했습니다.
+                    </p>
+                    <p class="bg-white/70 p-4 rounded-xl font-medium text-indigo-900 border border-indigo-200 flex items-start gap-3 mt-4">
+                        <i data-lucide="check-circle-2" class="w-5 h-5 text-indigo-600 shrink-0 mt-0.5"></i>
+                        <span>
+                            **리뷰노트 체험단 3인 선정도 완료**되었습니다! 이들이 다녀가고 리뷰가 쌓이는 4월부터는 플레이스 지수가 더욱 단단해집니다. 따라서 사장님의 전략대로 <strong>4월부터 광고 입찰가를 다시 400원으로 낮춰 '예산 효율화' 모드에 돌입</strong>하겠습니다. 완벽한 판단입니다!
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 1: Traffic & Conversion -->
+        <section class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 stat-card">
+            <div class="flex items-center justify-between mb-5">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="mouse-pointer-click" class="text-slate-600 w-5 h-5"></i>
+                    <h3 class="text-lg font-bold text-slate-900">1. 주간 유입 및 전환 지표 요약</h3>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <!-- Place Influx -->
+                <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl text-center">
+                    <div class="text-xs font-bold text-slate-500 mb-1">플레이스 유입</div>
+                    <div class="text-2xl font-black text-slate-800 mb-1">1,171<span class="text-sm font-bold text-slate-400">회</span></div>
+                    <div class="inline-flex items-center gap-0.5 text-red-500 text-xs font-bold">
+                        <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i> 6%
+                    </div>
+                </div>
+                
+                <!-- Reservation (HIGHLIGHT) -->
+                <div class="bg-indigo-50 border-2 border-indigo-500 p-4 rounded-xl text-center relative transform -translate-y-1 shadow-md">
+                    <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-indigo-600 text-white text-[10px] font-black px-3 py-1 rounded-full whitespace-nowrap pulse-badge">초대박 지표</div>
+                    <div class="text-xs font-bold text-indigo-600 mb-1 mt-1">예약·주문 신청</div>
+                    <div class="text-3xl font-black text-indigo-700 mb-1">14<span class="text-sm font-bold text-indigo-400">회</span></div>
+                    <div class="inline-flex items-center gap-0.5 bg-red-100 text-red-600 px-1.5 py-0.5 rounded text-[11px] font-black">
+                        <i data-lucide="trending-up" class="w-3.5 h-3.5"></i> 600% 폭증!
+                    </div>
+                </div>
+
+                <!-- Call -->
+                <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl text-center">
+                    <div class="text-xs font-bold text-slate-500 mb-1">스마트콜 통화</div>
+                    <div class="text-2xl font-black text-slate-800 mb-1">39<span class="text-sm font-bold text-slate-400">회</span></div>
+                    <div class="inline-flex items-center gap-0.5 text-blue-500 text-xs font-bold">
+                        <i data-lucide="arrow-down-right" class="w-3.5 h-3.5"></i> 11%
+                    </div>
+                    <div class="text-[9px] text-slate-400 mt-1">*예약 기능으로 수요 분산</div>
+                </div>
+
+                <!-- Review -->
+                <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl text-center">
+                    <div class="text-xs font-bold text-slate-500 mb-1">리뷰 등록</div>
+                    <div class="text-2xl font-black text-slate-800 mb-1">15<span class="text-sm font-bold text-slate-400">회</span></div>
+                    <div class="inline-flex items-center gap-0.5 text-red-500 text-xs font-bold">
+                        <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i> 50%
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 & 3 Grid -->
+        <div class="grid md:grid-cols-2 gap-6">
+            
+            <!-- Section 2: Ad Keywords -->
+            <section class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 stat-card">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="bar-chart-horizontal" class="text-slate-600 w-5 h-5"></i>
+                        <h3 class="text-lg font-bold text-slate-900">상위 노출 점령 결과</h3>
+                    </div>
+                    <span class="bg-slate-100 text-slate-600 text-xs font-bold px-2 py-1 rounded">총 85,300원 소진</span>
+                </div>
+                
+                <div class="flex items-center gap-3 bg-blue-50 p-3 rounded-lg border border-blue-100 mb-4">
+                    <div class="bg-white text-blue-600 font-black text-xl w-10 h-10 flex items-center justify-center rounded-md border border-blue-200 shrink-0">
+                        2.4
+                    </div>
+                    <p class="text-sm text-blue-900 font-medium">입찰가 800원 상향 후,<br>담담 플레이스의 <strong>평균 노출 순위 2.4위 달성!</strong></p>
+                </div>
+
+                <div class="space-y-2">
+                    <h4 class="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-2">TOP 5 유입 키워드</h4>
+                    <ul class="text-sm space-y-1.5">
+                        <li class="flex justify-between items-center bg-slate-50 px-3 py-2 rounded">
+                            <span class="font-bold text-slate-700">1. 음식점</span>
+                            <span class="text-slate-500">34클릭</span>
+                        </li>
+                        <li class="flex justify-between items-center bg-indigo-50 border border-indigo-100 px-3 py-2 rounded">
+                            <span class="font-bold text-indigo-700">2. 진주가좌동맛집</span>
+                            <span class="text-indigo-600 font-bold">19클릭</span>
+                        </li>
+                        <li class="flex justify-between items-center bg-slate-50 px-3 py-2 rounded">
+                            <span class="font-bold text-slate-700">3. 진주경상대맛집</span>
+                            <span class="text-slate-500">8클릭</span>
+                        </li>
+                        <li class="flex justify-between items-center bg-slate-50 px-3 py-2 rounded">
+                            <span class="font-bold text-slate-700">4. 진주역맛집</span>
+                            <span class="text-slate-500">7클릭</span>
+                        </li>
+                        <li class="flex justify-between items-center bg-slate-50 px-3 py-2 rounded">
+                            <span class="font-bold text-slate-700">5. 경상대맛집</span>
+                            <span class="text-slate-500">6클릭</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 3: Review Note Selected -->
+            <section class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-200 stat-card flex flex-col">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="star" class="text-emerald-500 w-5 h-5"></i>
+                        <h3 class="text-lg font-bold text-slate-900">리뷰노트 체험단 선정 완료</h3>
+                    </div>
+                    <span class="bg-emerald-100 text-emerald-700 text-xs font-bold px-2 py-1 rounded">3명 선정</span>
+                </div>
+                
+                <p class="text-sm text-slate-600 mb-4">
+                    경쟁률을 뚫고 블로그 일 방문자가 우수한 진성 리뷰어 3인이 선정되었습니다. 사장님께서 직접 문자를 통해 일정을 조율해 주시면 됩니다.
+                </p>
+
+                <!-- Influencer List -->
+                <div class="space-y-3 flex-1">
+                    <div class="flex items-center justify-between p-3 border border-slate-100 rounded-lg bg-white shadow-sm hover:border-emerald-300 transition-colors">
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-xs">고급</div>
+                            <div>
+                                <div class="font-bold text-sm text-slate-800">박지혜혜</div>
+                                <div class="text-xs text-slate-500">일 방문: 264명</div>
+                            </div>
+                        </div>
+                        <a href="tel:01040641267" class="text-slate-400 hover:text-emerald-500"><i data-lucide="phone" class="w-4 h-4"></i></a>
+                    </div>
+                    
+                    <div class="flex items-center justify-between p-3 border border-slate-100 rounded-lg bg-white shadow-sm hover:border-emerald-300 transition-colors">
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center font-bold text-xs">초급</div>
+                            <div>
+                                <div class="font-bold text-sm text-slate-800">조하경</div>
+                                <div class="text-xs text-slate-500">일 방문: 440명</div>
+                            </div>
+                        </div>
+                        <a href="tel:01039198078" class="text-slate-400 hover:text-emerald-500"><i data-lucide="phone" class="w-4 h-4"></i></a>
+                    </div>
+
+                    <div class="flex items-center justify-between p-3 border border-slate-100 rounded-lg bg-white shadow-sm hover:border-emerald-300 transition-colors">
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center font-bold text-xs">초급</div>
+                            <div>
+                                <div class="font-bold text-sm text-slate-800">이예인</div>
+                                <div class="text-xs text-slate-500">일 방문: 233명</div>
+                            </div>
+                        </div>
+                        <a href="tel:01066171757" class="text-slate-400 hover:text-emerald-500"><i data-lucide="phone" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Section 4: Next Action (April Strategy) -->
+        <section class="bg-slate-800 rounded-2xl p-6 sm:p-8 shadow-lg text-white">
+            <div class="flex flex-col sm:flex-row gap-6 items-center">
+                <div class="shrink-0 bg-slate-700 p-4 rounded-full border-4 border-slate-600">
+                    <i data-lucide="shield" class="w-10 h-10 text-emerald-400"></i>
+                </div>
+                <div class="flex-1 text-center sm:text-left">
+                    <div class="text-emerald-400 font-bold text-sm mb-1">NEXT ACTION PLAN</div>
+                    <h3 class="text-xl font-bold mb-3">4월부터 예산 방어 모드! 입찰가 400원 원복</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        공격적으로 유입을 끌어모았던 3월 전략이 완벽히 성공했습니다. 
+                        이제 인플루언서들의 고퀄리티 블로그 리뷰가 쌓이면서 자연스럽게 플레이스 지수가 높아질 예정입니다.
+                        따라서 <strong>4월부터는 불필요한 출혈을 막기 위해 광고 입찰가를 다시 400원으로 하향 조정</strong>하여 가성비 극대화(효율화)에 집중하겠습니다.
+                    </p>
+                    <div class="inline-flex gap-2 items-center text-xs font-bold bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-600">
+                        <span class="text-slate-400 line-through">입찰가 800원</span>
+                        <i data-lucide="arrow-right" class="w-3 h-3 text-slate-500"></i>
+                        <span class="text-emerald-400">입찰가 400원 세팅 완료</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 text-slate-400 text-sm">
+        &copy; 2026 담담 Marketing Master Weekly Report - Week 4 (Final)
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
