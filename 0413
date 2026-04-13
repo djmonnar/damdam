@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>담담 4월 2주차 마케팅 리포트</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <style>
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+            background-color: #f8fafc;
+            word-break: keep-all;
+        }
+        .stat-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased pb-12">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-10 shadow-sm">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="bg-slate-800 text-white p-1.5 rounded-md">
+                    <i data-lucide="bar-chart-3" class="w-5 h-5"></i>
+                </div>
+                <h1 class="text-lg font-bold tracking-tight">담담 4월 2주차 마케팅 리포트</h1>
+            </div>
+            <div class="text-sm text-slate-500 font-medium bg-slate-100 px-3 py-1 rounded-full flex items-center gap-1.5">
+                <i data-lucide="calendar" class="w-3.5 h-3.5"></i> 26. 04. 06 ~ 04. 12
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+
+        <!-- Executive Summary -->
+        <section class="bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+            <h2 class="text-slate-900 font-extrabold text-xl sm:text-2xl mb-4 flex items-center gap-2">
+                <span class="text-2xl">💡</span> 대학가 시험기간 진입 및 예산 100% 방어
+            </h2>
+            <div class="text-slate-700 leading-relaxed space-y-3 text-sm sm:text-base">
+                <p>
+                    사장님, 이번 주 상권의 가장 큰 이슈는 <strong>경상대학교 중간고사 기간 진입</strong>입니다. 학생들의 외식 및 모임 빈도가 급감함에 따라 단체 예약 및 스마트콜 지표가 하락했으나, 이는 상권 특성상 발생하는 자연스러운 현상입니다.
+                </p>
+                <p>
+                    오히려 긍정적인 부분은 <strong>네이버 신규지원프로그램을 통해 약 24만 원의 광고 쿠폰이 성공적으로 충전</strong>되었다는 점입니다. 당분간 광고비 지출(Out-of-pocket) 제로(0원) 상태로 매장을 홍보할 수 있게 되었습니다.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 1: Traffic & Conversion -->
+        <section class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 stat-card">
+            <div class="flex items-center justify-between mb-5">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="activity" class="text-slate-600 w-5 h-5"></i>
+                    <h3 class="text-lg font-bold text-slate-900">1. 주간 유입 및 전환 지표 요약</h3>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <!-- Place Influx -->
+                <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl text-center">
+                    <div class="text-xs font-bold text-slate-500 mb-1">플레이스 유입</div>
+                    <div class="text-2xl font-black text-slate-800 mb-1">1,296<span class="text-sm font-bold text-slate-400">회</span></div>
+                    <div class="inline-flex items-center gap-0.5 text-blue-500 text-xs font-bold">
+                        <i data-lucide="arrow-down-right" class="w-3.5 h-3.5"></i> 3%
+                    </div>
+                </div>
+                
+                <!-- Reservation -->
+                <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl text-center">
+                    <div class="text-xs font-bold text-slate-500 mb-1">예약·주문 신청</div>
+                    <div class="text-2xl font-black text-slate-800 mb-1">2<span class="text-sm font-bold text-slate-400">회</span></div>
+                    <div class="inline-flex items-center gap-0.5 text-blue-500 text-xs font-bold">
+                        <i data-lucide="arrow-down-right" class="w-3.5 h-3.5"></i> 67%
+                    </div>
+                </div>
+
+                <!-- Call -->
+                <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl text-center relative">
+                    <div class="absolute -top-2 -right-2 bg-slate-800 text-white text-[9px] px-2 py-0.5 rounded shadow-sm">시험기간 영향</div>
+                    <div class="text-xs font-bold text-slate-500 mb-1">스마트콜 통화</div>
+                    <div class="text-2xl font-black text-slate-800 mb-1">13<span class="text-sm font-bold text-slate-400">회</span></div>
+                    <div class="inline-flex items-center gap-0.5 text-blue-500 text-xs font-bold">
+                        <i data-lucide="arrow-down-right" class="w-3.5 h-3.5"></i> 38%
+                    </div>
+                </div>
+
+                <!-- Review -->
+                <div class="bg-indigo-50 border border-indigo-100 p-4 rounded-xl text-center">
+                    <div class="text-xs font-bold text-indigo-500 mb-1">리뷰 등록</div>
+                    <div class="text-2xl font-black text-indigo-700 mb-1">14<span class="text-sm font-bold text-indigo-400">회</span></div>
+                    <div class="inline-flex items-center gap-0.5 text-red-500 text-xs font-bold">
+                        <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i> 8%
+                    </div>
+                </div>
+            </div>
+
+            <!-- Insight Box -->
+            <div class="mt-5 bg-slate-50 p-4 rounded-lg border border-slate-100 text-sm text-slate-600 flex items-start gap-2">
+                <i data-lucide="lightbulb" class="w-5 h-5 text-amber-500 shrink-0"></i>
+                <p><strong>브랜드 검색량 폭증:</strong> 유입 지표 중 <strong>'담담(37.2%)'</strong>과 <strong>'진주담담(19.1%)'</strong> 등 상호명을 직접 검색하여 들어오는 비율이 약 56%를 차지했습니다. 이는 광고를 통해 인지도가 확실히 쌓였으며, 고객들이 우리 매장을 명확히 기억하고 찾아온다는 매우 긍정적인 신호입니다.</p>
+            </div>
+        </section>
+
+        <!-- Section 2 & 3 Grid -->
+        <div class="grid md:grid-cols-2 gap-6">
+            
+            <!-- Section 2: Ad Spend & Coupon -->
+            <section class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 stat-card">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="wallet" class="text-slate-600 w-5 h-5"></i>
+                        <h3 class="text-lg font-bold text-slate-900">광고 소진액 및 쿠폰 현황</h3>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-50 rounded-xl p-4 border border-slate-100 mb-4">
+                    <div class="text-sm text-slate-500 font-bold mb-1">이번 주 총 소진액 (입찰가 400원)</div>
+                    <div class="text-2xl font-black text-slate-800">39,735<span class="text-base font-normal text-slate-500">원</span></div>
+                    <div class="text-xs text-slate-400 mt-1">클릭 182회 / 평균 클릭비용 218원</div>
+                </div>
+
+                <div class="bg-emerald-50 rounded-xl p-4 border border-emerald-200 relative overflow-hidden">
+                    <div class="absolute -right-4 -bottom-4 text-emerald-100 opacity-50">
+                        <i data-lucide="gift" class="w-24 h-24"></i>
+                    </div>
+                    <div class="relative z-10">
+                        <div class="text-xs font-bold text-emerald-600 mb-1 flex items-center gap-1">
+                            <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i> 네이버 신규지원프로그램 충전 완료
+                        </div>
+                        <div class="text-xl font-black text-emerald-700">잔여: +242,627원</div>
+                        <p class="text-xs text-emerald-600/80 mt-2 leading-relaxed">
+                            쿠폰이 완벽하게 적용되었습니다. 주당 약 4만 원 소진 기준, <strong>앞으로 약 한 달 반 이상 광고비 충전 없이</strong> 기존 세팅을 그대로 유지할 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3: Strategic Updates -->
+            <section class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 stat-card flex flex-col">
+                <div class="flex items-center gap-2 mb-4">
+                    <i data-lucide="target" class="text-slate-600 w-5 h-5"></i>
+                    <h3 class="text-lg font-bold text-slate-900">주요 마케팅 액션 점검</h3>
+                </div>
+                
+                <div class="space-y-4 flex-1">
+                    <!-- Review Note -->
+                    <div class="flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100">
+                        <div class="bg-white p-2 rounded shadow-sm shrink-0">
+                            <i data-lucide="edit-3" class="text-blue-500 w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-sm mb-1">리뷰노트 1주일 연장 및 작성 대기</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">체험단 기한을 1주 연장하여 블로거들의 방문 및 포스팅 품질을 높일 수 있는 여유를 확보했습니다. 이번 주 내로 고퀄리티 리뷰 3건이 모두 누적 완료될 예정입니다.</p>
+                        </div>
+                    </div>
+
+                    <!-- Delivery Delay Strategy -->
+                    <div class="flex items-start gap-3 bg-amber-50 p-4 rounded-xl border border-amber-200">
+                        <div class="bg-white p-2 rounded shadow-sm shrink-0">
+                            <i data-lucide="pause-circle" class="text-amber-500 w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-amber-900 text-sm mb-1">배달 시장 진입 '전략적 보류'</h4>
+                            <p class="text-xs text-amber-700 leading-relaxed">
+                                최근 플라스틱 배달 용기 및 포장 부자재 단가가 큰 폭으로 인상되는 추세입니다. 배달 수수료와 부자재 원가 상승이 수익성을 악화시킬 우려가 크므로, <strong>무리하게 배달을 오픈하기보다는 시장 상황이 안정될 때까지 기획 단계에서 관망하겠다는 사장님의 결정은 재무적으로 매우 탁월한 판단</strong>입니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="text-center py-8 text-slate-400 text-sm">
+        &copy; 2026 담담 Marketing Master Weekly Report - April Week 2
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
